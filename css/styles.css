@@ -402,6 +402,18 @@ margin: 10px 0 5px 0;
     }
 }
 
+@media (max-width: 800px) {
+    .vantagens {
+        flex-wrap: wrap; /* Permite que as vantagens quebrem para a próxima linha */
+        justify-content: center; /* Centraliza as vantagens horizontalmente */
+    }
+
+    .vantagem {
+        width: 100%; /* Ocupa toda a largura disponível */
+        margin-bottom: 20px; /* Espaçamento entre as vantagens */
+    }
+}
+
 
 .footer{
 	background: var(--clr--pink-light);
