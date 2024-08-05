@@ -303,6 +303,7 @@ margin: 10px 0 5px 0;
 
 .newsletter-info__descricao{
 	font-style: italic;
+	margin-bottom: 1rem;
 }
 
 .newsletter-form{
